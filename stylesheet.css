@@ -1,0 +1,60 @@
+textarea {
+    left:10px; top:10px;
+    width: calc(100vw - 20px);
+    height: calc(50vh);
+    border-radius: .2em;
+    
+    background-color: #2D522D;
+    color: #E0E0E0;
+    font-family: 'Anonymous Pro', monospace;
+}
+
+.category {
+    text-align: center;
+    font-family: 'Droid Sans', sans-serif;
+}
+
+button {
+    font-family: 'Droid Sans', sans-serif;
+}
+
+.row {
+    width: calc(100vw - 20px);
+    display: flex;
+    flex-flow: row;
+}
+
+.column {
+    display: flex;
+    flex-flow: column;
+}
+
+
+.navigator {
+    margin-left: auto;
+    width: 8.4853em;
+    height: 8.4853em;
+    position: relative;
+}
+.arrow {
+    position: absolute;
+    width: 3em;
+    height: 3em;
+    transform: rotate(45deg);
+}
+.up {
+    left: 3.6213em;
+    top: 1.0607em;
+}
+.right {
+    right: 1.0607em;
+    top: 3.6213em;
+}
+.down {
+    right: 3.6213em;
+    bottom: 1.0607em;
+}
+.left {
+    left: 1.0607em;
+    bottom: 3.6213em;
+}
